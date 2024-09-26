@@ -37,14 +37,17 @@ html {
 .logo {
   max-width: 50%;
   max-height: 50%;
+  margin-top: 10rem;
   margin-bottom: 2rem;
 }
+
 .coming-soon {
   font-size: 2rem;
   font-weight: 700;
   color: var(--text-color);
   margin-bottom: 2rem;
 }
+
 .coming-soon a {
   color: var(--text-color);
   font-weight: 700;
