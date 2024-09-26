@@ -36,13 +36,8 @@ html {
   transition: opacity 0.5s ease-in-out;
 }
 
-#blurhash-canvas {
-  z-index: 1;
-  transition: opacity 0.5s ease-in-out;
-}
-
 #bg-image {
-  z-index: 2;
+  z-index: 1;
 }
 .content {
   display: flex;
