@@ -45,18 +45,15 @@ html {
   color: var(--text-color);
   margin-bottom: 2rem;
 }
-.social-links {
-  display: flex;
-  gap: 1rem;
-}
-
-.social-links a {
+.coming-soon a {
   color: var(--text-color);
   font-weight: 700;
-  text-decoration: none;
-  padding: 0.5rem 1rem;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
+  text-decoration: underline;
+  transition: opacity 0.3s ease;
+}
+
+.coming-soon a:hover {
+  opacity: 0.8;
 }
 
 @media (max-width: 500px) {
