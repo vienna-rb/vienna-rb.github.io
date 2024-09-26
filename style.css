@@ -29,9 +29,9 @@ html {
 }
 
 .bg-image {
-  opacity: 0;
   transition: opacity 0.5s ease-in-out;
 }
+
 .content {
   display: flex;
   flex-direction: column;
