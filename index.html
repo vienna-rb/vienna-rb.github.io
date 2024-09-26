@@ -35,13 +35,15 @@
   </head>
   <body>
     <div class="bg">
-      <canvas id="blurhash-canvas" class="bg-image"></canvas>
-      <picture>
-        <source media="(max-width: 500px)" srcset="images/bg-w500.webp" />
-        <source media="(max-width: 1387px)" srcset="images/bg-w1387.webp" />
-        <source media="(min-width: 1388px)" srcset="images/bg-w1980.webp" />
-        <img src="images/bg-w1980.webp" alt="Background" class="bg-image" id="bg-image" style="opacity: 0;" />
-      </picture>
+      <div class="bg-container">
+        <canvas id="blurhash-canvas" class="bg-image"></canvas>
+        <picture>
+          <source media="(max-width: 500px)" srcset="images/bg-w500.webp" />
+          <source media="(max-width: 1387px)" srcset="images/bg-w1387.webp" />
+          <source media="(min-width: 1388px)" srcset="images/bg-w1980.webp" />
+          <img src="images/bg-w1980.webp" alt="Background" class="bg-image" id="bg-image" style="opacity: 0;" />
+        </picture>
+      </div>
       <div class="content">
         <img src="images/logo.png" alt="vienna.rb logo" class="logo" />
         <h1 class="coming-soon">
@@ -85,6 +87,9 @@
       img.onload = function() {
         canvas.style.opacity = 0;
         img.style.opacity = 1;
+        setTimeout(() => {
+          canvas.style.display = 'none';
+        }, 500); // Match this to the transition duration in CSS
       };
     </script>
   </body>
