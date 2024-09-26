@@ -25,6 +25,11 @@ html {
   height: 100%;
   object-fit: cover;
   z-index: -1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+#blurhash-canvas {
+  transition: opacity 0.5s ease-in-out;
 }
 .content {
   display: flex;

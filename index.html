@@ -35,11 +35,12 @@
   </head>
   <body>
     <div class="bg">
+      <canvas id="blurhash-canvas" class="bg-image"></canvas>
       <picture>
         <source media="(max-width: 500px)" srcset="images/bg-w500.webp" />
         <source media="(max-width: 1387px)" srcset="images/bg-w1387.webp" />
         <source media="(min-width: 1388px)" srcset="images/bg-w1980.webp" />
-        <img src="images/bg-w1980.webp" alt="Background" class="bg-image" />
+        <img src="images/bg-w1980.webp" alt="Background" class="bg-image" id="bg-image" style="opacity: 0;" />
       </picture>
       <div class="content">
         <img src="images/logo.png" alt="vienna.rb logo" class="logo" />
@@ -61,5 +62,30 @@
         </h1>
       </div>
     </div>
+    <script src="https://unpkg.com/fast-blurhash@1.1.2/dist/index.min.js"></script>
+    <script>
+      const blurhashString = 'L971fwoeWBj]_4bHWVj[XnWXf6az';
+      const canvas = document.getElementById('blurhash-canvas');
+      const ctx = canvas.getContext('2d');
+
+      function setCanvasSize() {
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+      }
+
+      setCanvasSize();
+      window.addEventListener('resize', setCanvasSize);
+
+      const pixels = blurhash.decode(blurhashString, canvas.width, canvas.height);
+      const imageData = ctx.createImageData(canvas.width, canvas.height);
+      imageData.data.set(pixels);
+      ctx.putImageData(imageData, 0, 0);
+
+      const img = document.getElementById('bg-image');
+      img.onload = function() {
+        canvas.style.opacity = 0;
+        img.style.opacity = 1;
+      };
+    </script>
   </body>
 </html>
