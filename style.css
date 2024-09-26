@@ -42,10 +42,11 @@ html {
 }
 
 .coming-soon {
-  font-size: 2rem;
+  font-size: clamp(1rem, 4vw, 2rem);
   font-weight: 700;
   color: var(--text-color);
   margin-bottom: 2rem;
+  max-width: 90%;
 }
 
 .coming-soon a {
@@ -59,15 +60,24 @@ html {
   opacity: 0.8;
 }
 
+@media (max-width: 768px) {
+  .logo {
+    max-width: 70%;
+  }
+  .coming-soon {
+    font-size: clamp(0.875rem, 3vw, 1.5rem);
+  }
+}
+
 @media (max-width: 500px) {
   .bg-image {
     object-fit: contain;
     object-position: center;
   }
-  .coming-soon {
-    font-size: 1.5rem;
+  .logo {
+    max-width: 80%;
   }
-  .social-links {
-    flex-direction: column;
+  .coming-soon {
+    font-size: clamp(0.75rem, 2.5vw, 1.25rem);
   }
 }
