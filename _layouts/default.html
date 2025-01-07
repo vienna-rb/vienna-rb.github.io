@@ -1,14 +1,14 @@
 <!doctype html>
-<html lang="en">
+<html lang="{{ site.lang | default: "en-US" }}">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>vienna.rb - Ruby Meetup in Vienna</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ page.title }} - {{ site.title }}</title>
     <meta
       name="description"
       content="Join vienna.rb, the Ruby meetup community in Vienna, Austria. Connect with fellow Ruby enthusiasts, share knowledge, and grow your skills."
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -33,26 +33,15 @@
     />
     <meta name="twitter:image" content="https://ruby.wien/images/og.png" />
     <meta name="twitter:site" content="viennarb" />
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
-    <link
-      rel="icon"
-      type="image/webp"
-      sizes="32x32"
-      href="images/favicon32.webp"
-    />
-    <link
-      rel="icon"
-      type="image/webp"
-      sizes="64x64"
-      href="images/favicon64.webp"
-    />
+    <link rel="icon" href="/favicon.ico" sizes="32x32">
+    <link rel="icon" href="/assets/images/icon.svg" type="image/svg+xml">
   </head>
   <body>
     <div class="bg">
       <picture>
-        <source media="(max-width: 500px)" srcset="images/bg-w500.webp" />
-        <source media="(max-width: 1387px)" srcset="images/bg-w1387.webp" />
-        <source media="(min-width: 1388px)" srcset="images/bg-w1980.webp" />
+        <source media="(max-width: 500px)" srcset="/assets/images/bg-w500.webp" />
+        <source media="(max-width: 1387px)" srcset="/assets/images/bg-w1387.webp" />
+        <source media="(min-width: 1388px)" srcset="/assets/images/bg-w1980.webp" />
         <img
           src="images/bg-w1980.webp"
           alt="Background"
@@ -61,18 +50,8 @@
         />
       </picture>
       <div class="content">
-        <img src="images/logo.png" alt="vienna.rb logo" class="logo" />
-        <h1>Vienna.rb is returning December 5th, 2024 🎄</h1>
-        <p>
-          RSVP on
-          <a
-            href="https://www.meetup.com/vienna-rb"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Meetup.com</a
-          >.
-        </p>
-      </div>
+        <img src="/assets/images/icon-512.png" alt="vienna.rb logo" class="logo" />
+        {{ content }}
     </div>
   </body>
 </html>
