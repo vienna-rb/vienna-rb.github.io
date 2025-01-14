@@ -3,4 +3,14 @@ layout: default
 title: "Home"
 ---
 
-# [Vienna.rb](https://www.meetup.com/vienna-rb) is currently under construction 🔧
+A short form text about Vienna.rb goes here. QR code & link to Meetup.com right below here.
+
+Foto wall about recents goes here.
+
+## Sponsors
+
+Sponsors and logos go here
+
+## The Team
+
+Organizers go here.
