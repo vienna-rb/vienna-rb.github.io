@@ -3,9 +3,14 @@ layout: default
 title: "Home"
 ---
 
-A short form text about Vienna.rb goes here. QR code & link to Meetup.com right below here.
+## Join The Community
 
-Foto wall about recents goes here.
+Welcome to the Vienna Ruby User Group. We meet every quarter to learn together, listen to awesome talks, and discuss everything Ruby. Are you a seasoned Ruby veteran or just starting out? Everybody is welcome at to join 🤗
+
+[![QR Code](/assets/images/qr-code.png)](https://www.meetup.com/vienna-rb)
+{: .center .qr}
+
+Image gallery goes here
 
 ## Sponsors
 
