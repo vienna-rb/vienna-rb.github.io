@@ -189,6 +189,13 @@ a {
   }
 }
 
+footer {
+  padding-block: var(--space-lg);
+  background-color: var(--color-red);
+  color: var(--color-white);
+  text-align: center;
+}
+
 @media (max-width: 768px) {
   .logo {
     max-width: 70%;
