@@ -14,5 +14,3 @@ gem 'logger'
 #   gem 'jekyll-seo-tag', '~> 2.8'
 #   gem 'jekyll-sitemap', '~> 1.4'
 # end
-
-gem "nokogiri", "~> 1.18"
