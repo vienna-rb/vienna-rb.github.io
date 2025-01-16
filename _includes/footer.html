@@ -1,1 +1,8 @@
-<footer>Vienna.rb, 2012-2025</footer>
+<footer>
+  ©Vienna.rb, 2013 -<span id="copyright">
+    <script>
+      document.getElementById("copyright").innerText = new Date().getFullYear();
+    </script>
+    <noscript> {{ site.time | date: '%Y' }} </noscript>
+  </span>
+</footer>
