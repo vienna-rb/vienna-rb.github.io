@@ -18,11 +18,25 @@ A huge thank you to all of our sponsors for supporting the Ruby community in Vie
 
 <div class="sponsors">
   <a href="https://platogo.com/" >
-    <img src="/assets/images/platogo.png"/>
+    <img src="/assets/images/sponsors/platogo.png"/>
   </a>
   <a href="https://meisterlabs.com/" >
-    <img src="/assets/images/meister.png"/>
+    <img src="/assets/images/sponsors/meister.png"/>
   </a>
 </div>
 
 ## The Team
+
+Vienna.rb is organized by a team of volunteers. It is made possible by countless contributors who give talks and engage in the meetup 🤗
+
+<div class="team">
+  <div class="member">
+    <img src="/assets/images/team/hans.png"/>
+    <h3>Hans</h3>
+  </div>
+
+  <div class="member">
+  <img src="/assets/images/team/carmen.jpg"/>
+    <h3>Carmen</h3>
+    </div>
+</div>
