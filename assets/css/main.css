@@ -174,12 +174,14 @@ html {
 .member {
   display: flex;
   flex-direction: column;
-  gap: var(---space-md);
+  gap: var(--space-sm);
   text-align: center;
 
   img {
-    border-radius: 100%;
-    max-width: 100%;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 }
 
@@ -239,11 +241,5 @@ footer {
 
   .team {
     grid-template-columns: repeat(2, 1fr);
-  }
-
-  .member img {
-    border-radius: 100%;
-    max-width: 100%;
-    margin-inline: var(--space-md);
   }
 }
