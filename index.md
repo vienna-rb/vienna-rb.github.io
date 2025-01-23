@@ -16,6 +16,12 @@ Are you a seasoned Ruby veteran or just starting out? We'd love to have you. Eve
 A huge thank you to our sponsors for supporting the Ruby community in Vienna. Their backing is what makes the meetup possible ❤️
 
 <div class="sponsors">
+  <a href="https://rubycentral.org/" >
+    <img src="/assets/images/sponsors/ruby-central.png"/>
+  </a>
+  <a href="https://www.fastly.com/" >
+    <img src="/assets/images/sponsors/fastly.png"/>
+  </a>
   <a href="https://platogo.com/" >
     <img src="/assets/images/sponsors/platogo.png"/>
   </a>
