@@ -156,6 +156,10 @@ html {
   padding-inline: var(--space-md);
 }
 
+.sponsors a:nth-last-child(1){
+  grid-column: 2 / 3;
+}
+
 .sponsors img {
   max-width: 100%;
 }
@@ -237,6 +241,10 @@ footer {
   }
   .sponsors {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .sponsors a:nth-last-child(1){
+    grid-column: auto;
   }
 
   .team {
