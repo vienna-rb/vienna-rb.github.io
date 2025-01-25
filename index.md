@@ -17,16 +17,16 @@ A huge thank you to our sponsors for supporting the Ruby community in Vienna. Th
 
 <div class="sponsors">
   <a href="https://rubycentral.org/" >
-    <img src="/assets/images/sponsors/ruby-central.png"/>
+    <img src="/assets/images/sponsors/ruby-central.webp"/>
   </a>
   <a href="https://www.fastly.com/" >
-    <img src="/assets/images/sponsors/fastly.png"/>
+    <img src="/assets/images/sponsors/fastly.webp"/>
   </a>
   <a href="https://platogo.com/" >
-    <img src="/assets/images/sponsors/platogo.png"/>
+    <img src="/assets/images/sponsors/platogo.webp"/>
   </a>
   <a href="https://meisterlabs.com/" >
-    <img src="/assets/images/sponsors/meister.png"/>
+    <img src="/assets/images/sponsors/meister.webp"/>
   </a>
 </div>
 
@@ -36,12 +36,12 @@ Vienna.rb is organized by a team of volunteers. It is made possible by countless
 
 <div class="team">
   <div class="member">
-    <img src="/assets/images/team/hans.png"/>
+    <img src="/assets/images/team/hans.webp"/>
     <h3>Hans</h3>
   </div>
 
   <div class="member">
-  <img src="/assets/images/team/carmen.jpg"/>
+  <img src="/assets/images/team/carmen.webp"/>
     <h3>Carmen</h3>
     </div>
 </div>
