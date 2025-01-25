@@ -6,7 +6,7 @@ layout: default
 
 Welcome to the Vienna Ruby User Group. We meet every quarter to learn together, listen to fantastic talks, and discuss everything Ruby. Join us as we explore the latest trends in the Ruby and Ruby on Rails ecosystem, listen to entrepreneurs building their business on Ruby, or discover hidden gems and quirks of the Ruby programming language.
 
-[![QR Code](/assets/images/qr-code.png)](https://www.meetup.com/vienna-rb)
+[![QR Code](/assets/images/qr-code.webp)](https://www.meetup.com/vienna-rb)
 {: .center .qr}
 
 Are you a seasoned Ruby veteran or just starting out? We'd love to have you. Everybody is welcome to join! Join the fun on [Meetup.com](https://www.meetup.com/vienna-rb/) to RSVP for our latest meetup or follow us on [X](https://x.com/viennarb) or [Bluesky](https://bsky.app/profile/ruby.wien).
