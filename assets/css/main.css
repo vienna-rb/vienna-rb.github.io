@@ -142,8 +142,9 @@ html {
   max-width: var(--max-width);
 }
 
-.qr a img {
-  max-width: calc(10 * var(--font-base-size));
+.qr {
+  display: flex;
+  justify-content: center;
 }
 
 .sponsors {
