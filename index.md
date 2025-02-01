@@ -10,7 +10,7 @@ Welcome to the Vienna Ruby User Group. We meet every quarter to learn together, 
   <a href="https://www.meetup.com/vienna-rb">
     <picture>
       <source srcset="/assets/images/qr-code-w256.webp" media="(min-width: 768px)">
-      <img src="/assets/images/qr-code-w128.webp" width="128" height="128" alt="QR Code for Vienna.rb Meetup">
+      <img src="/assets/images/qr-code-w192.webp" width="192" height="192" alt="QR Code for Vienna.rb Meetup">
     </picture>
   </a>
 </div>
