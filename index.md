@@ -2,9 +2,19 @@
 layout: default
 ---
 
-## Join the Community
+## Join the Vienna Ruby Community
 
-Welcome to the Vienna Ruby User Group. We meet every quarter to learn together, listen to fantastic talks, and discuss everything Ruby. Join us as we explore the latest trends in the Ruby and Ruby on Rails ecosystem, listen to entrepreneurs building their business on Ruby, or discover hidden gems and quirks of the Ruby programming language.
+<p>Are you passionate about <strong>Ruby</strong> and <strong>Ruby on Rails</strong>? Join the <strong>Vienna Ruby User Group</strong>, a thriving community of <strong>developers, engineers, and entrepreneurs</strong> who love Ruby!</p>
+
+<p>We meet <strong>quarterly</strong> to:</p>
+
+<ul class="checklist">
+  <li>Learn about the latest <strong>Ruby trends and frameworks</strong></li>
+  <li>Hear engaging talks from <strong>developers of all experience levels</strong></li>
+  <li>Connect and collaborate with friendly <strong>Ruby developers in Vienna</strong></li>
+</ul>
+
+<p>Whether you're a beginner, hobbyist, or seasoned pro, this is the perfect place to <strong>connect, learn, and grow</strong>.</p>
 
 <div class="qr">
   <a href="https://www.meetup.com/vienna-rb">
@@ -15,8 +25,8 @@ Welcome to the Vienna Ruby User Group. We meet every quarter to learn together, 
   </a>
 </div>
 
-
-Are you a seasoned Ruby veteran or just starting out? We'd love to have you. Everybody is welcome to join! Join the fun on [Meetup.com](https://www.meetup.com/vienna-rb/) to RSVP for our latest meetup or follow us on [X](https://x.com/viennarb) or [Bluesky](https://bsky.app/profile/ruby.wien).
+<p>Join the fun on <a href="https://www.meetup.com/vienna-rb/">Meetup.com</a> to RSVP for our latest event, or follow us on <a href="https://x.com/viennarb">X</a> and <a href="https://bsky.app/profile/ruby.wien">Bluesky</a> to stay updated.</p>
+<p>Have a topic in mind? <strong>We’d love to hear your talk!</strong> Everybody is welcome to join and share!</p>
 
 ## Sponsors
 

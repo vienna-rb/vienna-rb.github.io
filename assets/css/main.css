@@ -142,6 +142,16 @@ html {
   max-width: var(--max-width);
 }
 
+ul.checklist {
+  list-style: none;
+  padding-left: 0;
+}
+
+.checklist li::before {
+  content: "✅";
+  margin-right: 8px;
+}
+
 .qr {
   display: flex;
   justify-content: center;
@@ -214,6 +224,10 @@ h3 {
 
 p {
   font-size: var(--font-size-sm);
+  margin-bottom: 2rem;
+}
+
+ul {
   margin-bottom: 2rem;
 }
 
