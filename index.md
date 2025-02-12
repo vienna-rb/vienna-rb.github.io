@@ -30,7 +30,7 @@ layout: default
 
 ## Sponsors
 
-A huge thank you to our sponsors for supporting the Ruby community in Vienna. Their backing is what makes the meetup possible ❤️
+<p> A huge thank you to our <strong>amazing sponsors</strong> for supporting Vienna’s Ruby community! Your generosity makes these meetups possible ❤️.</p>
 
 <div class="sponsors">
   <a href="https://rubycentral.org/" >
@@ -46,6 +46,8 @@ A huge thank you to our sponsors for supporting the Ruby community in Vienna. Th
     <img src="/assets/images/sponsors/meister.webp" alt="meister logo" />
   </a>
 </div>
+
+<p>Interested in sponsoring? Join us in shaping the future of <strong>Ruby in Vienna</strong>!</p>
 
 ## The Team
 
