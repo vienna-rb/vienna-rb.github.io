@@ -142,14 +142,15 @@ html {
   max-width: var(--max-width);
 }
 
-ul.checklist {
+.checklist {
   list-style: none;
   padding-left: 0;
+  margin-bottom: var(--space-lg);
 }
 
 .checklist li::before {
   content: "✅";
-  margin-right: 8px;
+  margin-right: var(--space-md);
 }
 
 .qr {
@@ -224,11 +225,7 @@ h3 {
 
 p {
   font-size: var(--font-size-sm);
-  margin-bottom: 2rem;
-}
-
-ul {
-  margin-bottom: 2rem;
+  margin-bottom: var(--space-md);
 }
 
 a {
