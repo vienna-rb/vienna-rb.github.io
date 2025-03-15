@@ -159,6 +159,19 @@ html {
   margin-bottom: var(--space-md);
 }
 
+.gallery {
+  margin: var(--space-md) 0;
+  padding: var(--space-md) 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
 .sponsors {
   display: grid;
   gap: var(--space-2xl);

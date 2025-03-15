@@ -14,6 +14,14 @@ layout: default
   <li>Connect and collaborate with friendly <strong>Ruby developers in Vienna</strong></li>
 </ul>
 
+<div class="gallery">
+  {% for file in site.static_files %}
+    {% if file.path contains '/assets/images/gallery/' %}
+      <img src="{{ file.path | relative_url }}" alt="">
+    {% endif %}
+  {% endfor %}
+</div>
+
 <p>Whether you're a beginner, hobbyist, or seasoned pro, this is the perfect place to <strong>connect, learn, and grow</strong>.</p>
 
 <div class="qr">
