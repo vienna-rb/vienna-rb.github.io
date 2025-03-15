@@ -68,7 +68,12 @@ Vienna.rb is organized by a team of volunteers. It is made possible by countless
   </div>
 
   <div class="member">
-  <img src="/assets/images/team/carmen.webp" alt="" />
+    <img src="/assets/images/team/carmen.webp" alt="" />
     <h3>Carmen</h3>
-    </div>
+  </div>
+
+  <div class="member">
+    <img src="/assets/images/team/grzegorz.webp" alt="" />
+    <h3>Grzegorz</h3>
+  </div>
 </div>
