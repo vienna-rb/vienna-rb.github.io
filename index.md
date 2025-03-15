@@ -42,16 +42,16 @@ layout: default
 
 <div class="sponsors">
   <a href="https://rubycentral.org/" >
-    <img src="/assets/images/sponsors/ruby-central.webp" alt="Ruby Central logo" />
+    <img src="/assets/images/sponsors/ruby-central.webp" width="314" height="75" alt="Ruby Central logo" />
   </a>
   <a href="https://www.fastly.com/" >
-    <img src="/assets/images/sponsors/fastly.webp" alt="fastly logo" />
+    <img src="/assets/images/sponsors/fastly.webp" width="314" height="157" alt="fastly logo" />
   </a>
   <a href="https://platogo.com/" >
-    <img src="/assets/images/sponsors/platogo.webp" alt="platogo logo" />
+    <img src="/assets/images/sponsors/platogo.webp" width="314" height="101" alt="platogo logo" />
   </a>
   <a href="https://meisterlabs.com/" >
-    <img src="/assets/images/sponsors/meister.webp" alt="meister logo" />
+    <img src="/assets/images/sponsors/meister.webp" width="314" height="70" alt="meister logo" />
   </a>
 </div>
 
