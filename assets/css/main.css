@@ -197,7 +197,6 @@ html {
   justify-content: center;
   align-items: center;
   margin-bottom: var(--space-xl);
-
   padding-inline: var(--space-md);
 }
 
@@ -276,5 +275,11 @@ footer {
 
   .team {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .member:nth-child(odd):last-child {
+    grid-column: span 2;
+    width: 50%;
+    justify-self: center;
   }
 }
