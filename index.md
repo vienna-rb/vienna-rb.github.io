@@ -41,17 +41,20 @@ layout: default
 <p> A huge thank you to our <strong>amazing sponsors</strong> for supporting Vienna’s Ruby community! Your generosity makes these meetups possible ❤️.</p>
 
 <div class="sponsors">
-  <a href="https://rubycentral.org/" >
-    <img src="/assets/images/sponsors/ruby-central.webp" width="243" height="58" alt="Ruby Central logo" />
-  </a>
-  <a href="https://www.fastly.com/" >
-    <img src="/assets/images/sponsors/fastly.webp" width="243" height="121" alt="fastly logo" />
+  <a href="https://planradar.com/" >
+    <img src="/assets/images/sponsors/planradar.webp" alt="Planradar logo" />
   </a>
   <a href="https://platogo.com/" >
-    <img src="/assets/images/sponsors/platogo.webp" width="243" height="78" alt="platogo logo" />
+    <img src="/assets/images/sponsors/platogo.webp" alt="platogo logo" />
   </a>
   <a href="https://meisterlabs.com/" >
-    <img src="/assets/images/sponsors/meister.webp" width="243" height="55" alt="meister logo" />
+    <img src="/assets/images/sponsors/meister.webp" alt="meister logo" />
+  </a>
+  <a href="https://rubycentral.org/" >
+    <img src="/assets/images/sponsors/ruby-central.webp" alt="Ruby Central logo" />
+  </a>
+  <a href="https://www.fastly.com/" >
+    <img src="/assets/images/sponsors/fastly.webp" alt="Fastly logo" />
   </a>
 </div>
 

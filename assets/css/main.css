@@ -173,17 +173,17 @@ html {
 }
 
 .sponsors {
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
   gap: var(--space-2xl);
-  grid-template-columns: repeat(3, 1fr);
   justify-content: center;
   align-items: center;
-  margin-bottom: var(--space-xl);
+  margin: var(--space-xl) 0;
   padding-inline: var(--space-md);
 }
 
-.sponsors a:nth-last-child(1) {
-  grid-column: 2 / 3;
+.sponsors a {
+  max-width: 30%;
 }
 
 .sponsors img {
@@ -265,12 +265,9 @@ footer {
   :root {
     --font-base-size: 1rem;
   }
-  .sponsors {
-    grid-template-columns: repeat(2, 1fr);
-  }
 
-  .sponsors a:nth-last-child(1) {
-    grid-column: auto;
+  .sponsors a {
+    max-width: 80%;
   }
 
   .team {
