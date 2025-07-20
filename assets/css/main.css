@@ -172,6 +172,15 @@ html {
   height: auto;
 }
 
+.sponsors-section h3 {
+  text-align: center;
+}
+
+.sponsors-section .main-sponsor {
+  display: flex;
+  justify-content: center;
+}
+
 .sponsors {
   display: flex;
   flex-wrap: wrap;
@@ -183,7 +192,8 @@ html {
 }
 
 .sponsors a {
-  max-width: 30%;
+  flex: 0 0 calc((100% - 2 * var(--space-2xl)) / 3);
+  max-width: calc((100% - 2 * var(--space-2xl)) / 3);
 }
 
 .sponsors img {
@@ -232,7 +242,7 @@ h2 {
 
 h3 {
   font-size: var(--font-size-sm);
-  font-weight: 400;
+  font-weight: 600;
 }
 
 p {

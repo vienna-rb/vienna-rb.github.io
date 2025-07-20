@@ -37,28 +37,39 @@ layout: default
 <p>Have a topic in mind? <strong>We’d love to hear your talk!</strong> Everybody is welcome to join and share!</p>
 
 ## Sponsors
+<div class="sponsors-section">
+  <p> A huge thank you to our <strong>amazing sponsors</strong> for supporting Vienna’s Ruby community! Your generosity makes these meetups possible ❤️.</p>
 
-<p> A huge thank you to our <strong>amazing sponsors</strong> for supporting Vienna’s Ruby community! Your generosity makes these meetups possible ❤️.</p>
+  <h3>Main Sponsor</h3>
 
-<div class="sponsors">
-  <a href="https://planradar.com/" >
-    <img src="/assets/images/sponsors/planradar.webp" alt="Planradar logo" />
-  </a>
-  <a href="https://platogo.com/" >
-    <img src="/assets/images/sponsors/platogo.webp" alt="platogo logo" />
-  </a>
-  <a href="https://meisterlabs.com/" >
-    <img src="/assets/images/sponsors/meister.webp" alt="meister logo" />
-  </a>
-  <a href="https://rubycentral.org/" >
-    <img src="/assets/images/sponsors/ruby-central.webp" alt="Ruby Central logo" />
-  </a>
-  <a href="https://www.fastly.com/" >
-    <img src="/assets/images/sponsors/fastly.webp" alt="Fastly logo" />
-  </a>
+  <div class="main-sponsor">
+    <a href="https://platogo.com/" >
+      <img src="/assets/images/sponsors/platogo-logo-blue.png" alt="platogo logo" />
+    </a>
+  </div>
+
+  <h3>Location Sponsors and Partners</h3>
+
+  <div class="sponsors">
+    <a href="https://www.fastly.com/" >
+      <img src="/assets/images/sponsors/fastly.png" alt="Fastly logo" />
+    </a>
+    <a href="https://meisterlabs.com/" >
+      <img src="/assets/images/sponsors/meister-task.png" alt="meister task logo" />
+    </a>
+    <a href="https://planradar.com/" >
+      <img src="/assets/images/sponsors/planradar.png" alt="Planradar logo" />
+    </a>
+    <a href="https://rubycentral.org/" >
+      <img src="/assets/images/sponsors/ruby-central.png" alt="Ruby Central logo" />
+    </a>
+    <a href="https://rubyeurope.com/" >
+      <img src="/assets/images/sponsors/ruby-europe.png" alt="Ruby Europe logo" />
+    </a>
+  </div>
+
+  <p>Interested in sponsoring? Join us in shaping the future of <strong>Ruby in Vienna</strong>!</p>
 </div>
-
-<p>Interested in sponsoring? Join us in shaping the future of <strong>Ruby in Vienna</strong>!</p>
 
 ## The Team
 
