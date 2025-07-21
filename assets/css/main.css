@@ -101,8 +101,12 @@ html {
   gap: 1rem;
   z-index: 2;
 
-  img {
+  .hero-img {
     max-width: 250px;
+  }
+
+  img {
+    width: 100%;
     height: auto;
   }
 }
@@ -298,6 +302,10 @@ footer {
     --font-base-size: 1rem;
   }
 
+  .hero-fg .hero-img {
+    max-width: 160px;
+  }
+
   .sponsors a {
     max-width: 80%;
   }
@@ -310,5 +318,11 @@ footer {
     grid-column: span 2;
     width: 50%;
     justify-self: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .hero .bg {
+    padding: 0 var(--space-sm);
   }
 }
