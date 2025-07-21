@@ -192,6 +192,15 @@ html {
 .sponsors-section .main-sponsor {
   display: flex;
   justify-content: center;
+
+  a {
+    display: block;
+    max-width: 640px;
+
+    img {
+      max-width: 100%;
+    }
+  }
 }
 
 .sponsors {
