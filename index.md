@@ -33,7 +33,7 @@ layout: default
   </a>
 </div>
 
-<p>Join the fun on <a href="https://www.meetup.com/vienna-rb/">Meetup.com</a> to RSVP for our latest event, or follow us on <a href="https://x.com/viennarb">X</a> and <a href="https://bsky.app/profile/ruby.wien">Bluesky</a> to stay updated.</p>
+<p>Join the fun on <a href="https://www.meetup.com/vienna-rb/">Meetup.com</a> to RSVP for our latest event, or follow us on <a href="https://x.com/viennarb">X</a>, <a href="https://bsky.app/profile/ruby.wien">Bluesky</a>, and <a href="https://www.youtube.com/@vienna-rb">YouTube</a> to stay updated.</p>
 <p>Have a topic in mind? <strong>We’d love to hear your talk!</strong> Everybody is welcome to join and share!</p>
 
 ## Sponsors
