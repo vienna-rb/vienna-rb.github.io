@@ -66,6 +66,9 @@ layout: default
     <a href="https://rubyeurope.com/" >
       <img src="/assets/images/sponsors/ruby-europe.png" alt="Ruby Europe logo" />
     </a>
+    <a href="https://rubyconf.at/" >
+      <img src="/assets/images/sponsors/rubyconf.png" alt="Ruby Conf Austria logo" />
+    </a>
   </div>
 
   <p>Interested in sponsoring? Join us in shaping the future of <strong>Ruby in Vienna</strong>!</p>
