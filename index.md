@@ -34,7 +34,8 @@ layout: default
 </div>
 
 <p>Join the fun on <a href="https://www.meetup.com/vienna-rb/">Meetup.com</a> to RSVP for our latest event, or follow us on <a href="https://x.com/viennarb">X</a>, <a href="https://bsky.app/profile/ruby.wien">Bluesky</a>, and <a href="https://www.youtube.com/@vienna-rb">YouTube</a> to stay updated.</p>
-<p>Have a topic in mind? <strong>We’d love to hear your talk!</strong> Everybody is welcome to join and share!</p>
+<p>Have a topic in mind? <strong>We’d love to hear your talk!</strong> Everyone is welcome to join and share —
+<a href="https://forms.gle/jcnc1BhRq6cvRmW26" target="_blank" rel="noopener">submit your talk idea 🎤</a>!</p>
 
 ## Sponsors
 <div class="sponsors-section">
