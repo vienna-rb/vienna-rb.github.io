@@ -178,17 +178,35 @@ html {
 }
 
 .gallery {
+  --gutter: var(--space-xs);
+  --flow-space: var(--gutter);
+  --switcher-target-container-width: 25rem;
   margin: var(--space-md) 0;
   padding: var(--space-md) 0;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
 }
 
 .gallery img {
   width: 100%;
   height: auto;
   border-radius: var(--space-xs);
+}
+
+.flow > * + * {
+  margin-block-start: var(--flow-space, 1em);
+}
+
+.switcher {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gutter, 1em);
+  align-items: var(--switcher-vertical-alignment, flex-start);
+}
+
+.switcher > * {
+  flex-grow: 1;
+  flex-basis: calc(
+    (var(--switcher-target-container-width, 40rem) - 100%) * 999
+  );
 }
 
 .sponsors-section h3 {

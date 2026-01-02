@@ -14,12 +14,34 @@ layout: default
   <li>Connect and collaborate with friendly <strong>Ruby developers in Vienna</strong></li>
 </ul>
 
-<div class="gallery">
-  {% for file in site.static_files %}
-    {% if file.path contains '/assets/images/gallery/' %}
-      <img src="{{ file.path | relative_url }}" alt="">
-    {% endif %}
-  {% endfor %}
+<div class="gallery switcher">
+  <div class="flow">
+    <img src="/assets/images/gallery/carmen_at_platogo.webp" alt="">
+    <img src="/assets/images/gallery/pizzas_at_sentry.webp" alt="">
+    <img src="/assets/images/gallery/crowd_at_platogo.webp" alt="">
+    <img src="/assets/images/gallery/crowd_at_unknown_location.webp" alt="">
+    <img src="/assets/images/gallery/crowd_at_unknown_location2.webp" alt="">
+    <img src="/assets/images/gallery/crowd_on_white_chairs.webp" alt="">
+  </div>
+  
+  <div class="flow">
+    <img src="/assets/images/gallery/group_at_sentry.webp" alt="">
+    <img src="/assets/images/gallery/intro_at_platogo.webp" alt="">
+    <img src="/assets/images/gallery/vienna_rb_whiteboard.webp" alt="">
+    <img src="/assets/images/gallery/laptop.webp" alt="">
+    <img src="/assets/images/gallery/marie_at_platogo.webp" alt="">
+    <img src="/assets/images/gallery/pizzas_at_platogo.webp" alt="">
+  </div>
+  
+  <div class="flow">
+    <img src="/assets/images/gallery/crowd_at_sentry.webp" alt="">
+    <img src="/assets/images/gallery/crowd_at_meister.webp" alt="">
+    <img src="/assets/images/gallery/presenter.webp" alt="">
+    <img src="/assets/images/gallery/socializing.webp" alt="">
+    <img src="/assets/images/gallery/helmet_at_planradar.webp" alt="">
+    <img src="/assets/images/gallery/visitor_on_laptop.webp" alt="">
+    <img src="/assets/images/gallery/winners_at_planradar.webp" alt="">
+  </div>
 </div>
 
 <p>Whether you're a beginner, hobbyist, or seasoned pro, this is the perfect place to <strong>connect, learn, and grow</strong>.</p>
