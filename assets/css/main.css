@@ -124,6 +124,7 @@ html {
     margin-block: var(--space-sm);
     line-height: 1;
   }
+
   p {
     font-size: var(--font-size-lg);
     font-weight: 600;
@@ -187,6 +188,7 @@ html {
 .gallery img {
   width: 100%;
   height: auto;
+  border-radius: var(--space-xs);
 }
 
 .sponsors-section h3 {

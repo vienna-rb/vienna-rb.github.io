@@ -52,14 +52,17 @@ layout: default
   <h3>Location Sponsors and Partners</h3>
 
   <div class="sponsors">
-    <a href="https://www.fastly.com/" >
-      <img src="/assets/images/sponsors/fastly.png" alt="Fastly logo" />
+    <a href="https://sentry.io/welcome/" >
+      <img src="/assets/images/sponsors/sentry.webp" alt="Sentry logo" />
     </a>
     <a href="https://meisterlabs.com/" >
       <img src="/assets/images/sponsors/meister-task.png" alt="meister task logo" />
     </a>
     <a href="https://planradar.com/" >
       <img src="/assets/images/sponsors/planradar.png" alt="Planradar logo" />
+    </a>
+    <a href="https://www.fastly.com/" >
+      <img src="/assets/images/sponsors/fastly.png" alt="Fastly logo" />
     </a>
     <a href="https://rubycentral.org/" >
       <img src="/assets/images/sponsors/ruby-central.png" alt="Ruby Central logo" />
@@ -83,11 +86,6 @@ Vienna.rb is organized by a team of volunteers. It is made possible by countless
   <div class="member">
     <img src="/assets/images/team/hans.webp" alt="" />
     <h3>Hans</h3>
-  </div>
-
-  <div class="member">
-    <img src="/assets/images/team/carmen.webp" alt="" />
-    <h3>Carmen</h3>
   </div>
 
   <div class="member">
