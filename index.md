@@ -19,27 +19,20 @@ layout: default
     <img src="/assets/images/gallery/carmen_at_platogo.webp" alt="">
     <img src="/assets/images/gallery/pizzas_at_sentry.webp" alt="">
     <img src="/assets/images/gallery/crowd_at_platogo.webp" alt="">
-    <img src="/assets/images/gallery/crowd_at_unknown_location.webp" alt="">
-    <img src="/assets/images/gallery/crowd_at_unknown_location2.webp" alt="">
-    <img src="/assets/images/gallery/crowd_on_white_chairs.webp" alt="">
+    <img src="/assets/images/gallery/marie_at_platogo.webp" alt="">
   </div>
-  
+
   <div class="flow">
     <img src="/assets/images/gallery/group_at_sentry.webp" alt="">
     <img src="/assets/images/gallery/intro_at_platogo.webp" alt="">
-    <img src="/assets/images/gallery/vienna_rb_whiteboard.webp" alt="">
-    <img src="/assets/images/gallery/laptop.webp" alt="">
-    <img src="/assets/images/gallery/marie_at_platogo.webp" alt="">
     <img src="/assets/images/gallery/pizzas_at_platogo.webp" alt="">
+    <img src="/assets/images/gallery/crowd_at_unknown_location.webp" alt="">
   </div>
-  
+
   <div class="flow">
     <img src="/assets/images/gallery/crowd_at_sentry.webp" alt="">
     <img src="/assets/images/gallery/crowd_at_meister.webp" alt="">
-    <img src="/assets/images/gallery/presenter.webp" alt="">
-    <img src="/assets/images/gallery/socializing.webp" alt="">
     <img src="/assets/images/gallery/helmet_at_planradar.webp" alt="">
-    <img src="/assets/images/gallery/visitor_on_laptop.webp" alt="">
     <img src="/assets/images/gallery/winners_at_planradar.webp" alt="">
   </div>
 </div>
@@ -60,39 +53,30 @@ layout: default
 <a href="https://forms.gle/jcnc1BhRq6cvRmW26" target="_blank" rel="noopener">submit your talk idea 🎤</a>!</p>
 
 ## Sponsors
+
 <div class="sponsors-section">
-  <p> A huge thank you to our <strong>amazing sponsors</strong> for supporting Vienna’s Ruby community! Your generosity makes these meetups possible ❤️.</p>
+  <p>A huge thank you to our amazing sponsors and community partners for supporting Vienna’s Ruby community. Your generosity and support make these meetups possible.</p>
 
-  <h3>Main Sponsor</h3>
-
-  <div class="main-sponsor">
-    <a href="https://platogo.com/" >
+  <div class="sponsors" aria-label="Vienna.rb sponsors">
+    <a href="https://platogo.com/">
       <img src="/assets/images/sponsors/platogo-logo-blue.png" alt="platogo logo" />
     </a>
-  </div>
-
-  <h3>Location Sponsors and Partners</h3>
-
-  <div class="sponsors">
-    <a href="https://sentry.io/welcome/" >
+    <a href="https://sentry.io/welcome/">
       <img src="/assets/images/sponsors/sentry.webp" alt="Sentry logo" />
     </a>
-    <a href="https://meisterlabs.com/" >
-      <img src="/assets/images/sponsors/meister-task.png" alt="meister task logo" />
+    <a href="https://meisterlabs.com/">
+      <img src="/assets/images/sponsors/meister-task.png" alt="MeisterTask logo" />
     </a>
-    <a href="https://planradar.com/" >
-      <img src="/assets/images/sponsors/planradar.png" alt="Planradar logo" />
+    <a href="https://planradar.com/">
+      <img src="/assets/images/sponsors/planradar.png" alt="PlanRadar logo" />
     </a>
-    <a href="https://www.fastly.com/" >
-      <img src="/assets/images/sponsors/fastly.png" alt="Fastly logo" />
-    </a>
-    <a href="https://rubycentral.org/" >
+    <a href="https://rubycentral.org/">
       <img src="/assets/images/sponsors/ruby-central.png" alt="Ruby Central logo" />
     </a>
-    <a href="https://rubyeurope.com/" >
+    <a href="https://rubyeurope.com/">
       <img src="/assets/images/sponsors/ruby-europe.png" alt="Ruby Europe logo" />
     </a>
-    <a href="https://rubyconf.at/" >
+    <a href="https://rubyconf.at/">
       <img src="/assets/images/sponsors/rubyconf.png" alt="Ruby Conf Austria logo" />
     </a>
   </div>
