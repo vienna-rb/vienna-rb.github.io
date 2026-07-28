@@ -70,6 +70,9 @@ layout: default
     <a href="https://planradar.com/">
       <img src="/assets/images/sponsors/planradar.png" alt="PlanRadar logo" />
     </a>
+    <a href="https://www.packtpub.com/">
+      <img src="/assets/images/sponsors/packt.png" alt="Packt logo" />
+    </a>
     <a href="https://rubycentral.org/">
       <img src="/assets/images/sponsors/ruby-central.png" alt="Ruby Central logo" />
     </a>
