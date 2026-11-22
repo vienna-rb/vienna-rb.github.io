@@ -272,28 +272,82 @@ body {
 }
 
 .sponsors {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: var(--space-lg);
-  align-items: stretch;
-  margin: var(--space-lg) 0;
+  max-inline-size: 52rem;
+  margin: var(--space-xl) auto;
 }
 
 .sponsors a {
-  min-height: 7rem;
-  padding: var(--space-lg);
+  flex: 0 0 calc((100% - 2 * var(--space-lg)) / 3);
+  min-inline-size: 0;
+  min-block-size: 4.5rem;
   display: grid;
   place-items: center;
-  background: var(--color-surface-muted);
-  border: 1px solid var(--color-grey-100);
-  border-radius: var(--border-radius-md);
 }
 
 .sponsors img {
-  width: 100%;
-  max-width: 11rem;
-  max-height: 4rem;
-  object-fit: contain;
+  inline-size: auto;
+  block-size: calc(var(--logo-height) * var(--logo-scale, 1));
+  translate: calc(var(--logo-offset-x) * var(--logo-scale, 1))
+    calc(var(--logo-offset-y) * var(--logo-scale, 1));
+}
+
+/* Trimmed artwork, sized by aspect ratio and alpha density, then optically centered. */
+.sponsors img[src$="platogo-logo-blue.png"] {
+  --logo-height: 35px;
+  --logo-offset-x: 1px;
+  --logo-offset-y: -1px;
+}
+
+.sponsors img[src$="sentry.webp"] {
+  --logo-height: 34px;
+  --logo-offset-x: 8px;
+  --logo-offset-y: -1px;
+}
+
+.sponsors img[src$="meister-task.png"] {
+  --logo-height: 33px;
+  --logo-offset-x: 23px;
+  --logo-offset-y: 0px;
+}
+
+.sponsors img[src$="planradar.png"] {
+  --logo-height: 31px;
+  --logo-offset-x: 11px;
+  --logo-offset-y: -1px;
+}
+
+.sponsors img[src$="packt.png"] {
+  --logo-height: 32px;
+  --logo-offset-x: 2px;
+  --logo-offset-y: 0px;
+}
+
+.sponsors img[src$="ruby-central.png"] {
+  --logo-height: 34px;
+  --logo-offset-x: 20px;
+  --logo-offset-y: 0px;
+}
+
+.sponsors img[src$="ruby-europe.png"] {
+  --logo-height: 32px;
+  --logo-offset-x: 24px;
+  --logo-offset-y: 2px;
+}
+
+.sponsors img[src$="rubyconf.png"] {
+  --logo-height: 32px;
+  --logo-offset-x: 15px;
+  --logo-offset-y: -1px;
+}
+
+.sponsors img[src$="roy-io.svg"] {
+  --logo-height: 29px;
+  --logo-offset-x: 1px;
+  --logo-offset-y: -2px;
 }
 
 .team {
@@ -393,16 +447,6 @@ footer {
     gap: var(--space-md);
   }
 
-  .sponsors {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: var(--space-md);
-  }
-
-  .sponsors a {
-    min-height: 5.5rem;
-    padding: var(--space-md);
-  }
-
   .team {
     justify-content: center;
   }
@@ -469,18 +513,11 @@ footer {
   }
 
   .sponsors {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: var(--space-sm);
+    --logo-scale: 0.8;
   }
 
   .sponsors a {
-    min-height: 4.5rem;
-    padding: var(--space-sm);
-  }
-
-  .sponsors img {
-    max-width: 8.5rem;
-    max-height: 3rem;
+    flex-basis: calc((100% - var(--space-lg)) / 2);
   }
 
   .team {
@@ -498,10 +535,6 @@ footer {
   .member img {
     width: min(100%, 8rem);
   }
-}
-
-.sponsors img[src*="ruby-europe"] {
-  filter: saturate(2) contrast(2) brightness(0.82);
 }
 
 @media (prefers-reduced-motion: reduce) {

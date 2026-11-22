@@ -48,7 +48,7 @@ layout: default
   </a>
 </div>
 
-<p>Join the fun on <a href="https://www.meetup.com/vienna-rb/">Meetup.com</a> to RSVP for our latest event, or follow us on <a href="https://x.com/viennarb">X</a>, <a href="https://bsky.app/profile/ruby.wien">Bluesky</a>, and <a href="https://www.youtube.com/@vienna-rb">YouTube</a> to stay updated.</p>
+<p>Join the fun on <a href="https://luma.com/vienna.rb">Luma</a> or <a href="https://www.meetup.com/vienna-rb/">Meetup.com</a> to RSVP for our latest event, or follow us on <a href="https://x.com/viennarb">X</a>, <a href="https://bsky.app/profile/ruby.wien">Bluesky</a>, and <a href="https://www.youtube.com/@vienna-rb">YouTube</a> to stay updated.</p>
 <p>Have a topic in mind? <strong>We’d love to hear your talk!</strong> Everyone is welcome to join and share —
 <a href="https://forms.gle/jcnc1BhRq6cvRmW26" target="_blank" rel="noopener">submit your talk idea 🎤</a>!</p>
 
@@ -59,28 +59,31 @@ layout: default
 
   <div class="sponsors" aria-label="Vienna.rb sponsors">
     <a href="https://platogo.com/">
-      <img src="/assets/images/sponsors/platogo-logo-blue.png" alt="platogo logo" />
+      <img src="/assets/images/sponsors/platogo-logo-blue.png" alt="platogo logo" width="577" height="184" loading="lazy" />
     </a>
     <a href="https://sentry.io/welcome/">
-      <img src="/assets/images/sponsors/sentry.webp" alt="Sentry logo" />
+      <img src="/assets/images/sponsors/sentry.webp" alt="Sentry logo" width="361" height="81" loading="lazy" />
     </a>
     <a href="https://meisterlabs.com/">
-      <img src="/assets/images/sponsors/meister-task.png" alt="MeisterTask logo" />
+      <img src="/assets/images/sponsors/meister-task.png" alt="MeisterTask logo" width="490" height="119" loading="lazy" />
     </a>
     <a href="https://planradar.com/">
-      <img src="/assets/images/sponsors/planradar.png" alt="PlanRadar logo" />
+      <img src="/assets/images/sponsors/planradar.png" alt="PlanRadar logo" width="496" height="109" loading="lazy" />
     </a>
     <a href="https://www.packtpub.com/">
-      <img src="/assets/images/sponsors/packt.png" alt="Packt logo" />
+      <img src="/assets/images/sponsors/packt.png" alt="Packt logo" width="473" height="120" loading="lazy" />
     </a>
     <a href="https://rubycentral.org/">
-      <img src="/assets/images/sponsors/ruby-central.png" alt="Ruby Central logo" />
+      <img src="/assets/images/sponsors/ruby-central.png" alt="Ruby Central logo" width="494" height="120" loading="lazy" />
     </a>
     <a href="https://rubyeurope.com/">
-      <img src="/assets/images/sponsors/ruby-europe.png" alt="Ruby Europe logo" />
+      <img src="/assets/images/sponsors/ruby-europe.png" alt="Ruby Europe logo" width="486" height="102" loading="lazy" />
     </a>
     <a href="https://rubyconf.at/">
-      <img src="/assets/images/sponsors/rubyconf.png" alt="Ruby Conf Austria logo" />
+      <img src="/assets/images/sponsors/rubyconf.png" alt="Ruby Conf Austria logo" width="812" height="232" loading="lazy" />
+    </a>
+    <a href="https://roy.io/">
+      <img src="/assets/images/sponsors/roy-io.svg" alt="roy.io logo" width="471" height="110" loading="lazy" />
     </a>
   </div>
 
